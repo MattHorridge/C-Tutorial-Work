@@ -1,31 +1,22 @@
 ﻿  Zombo.cpp
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(21,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(27,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(23,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(29,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(25,59): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(31,59): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(25,45): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(31,45): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(115,23): warning C4553: '==': result of expression not used; did you intend '='?
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(119,23): warning C4553: '==': result of expression not used; did you intend '='?
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(123,23): warning C4553: '==': result of expression not used; did you intend '='?
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(128,23): warning C4553: '==': result of expression not used; did you intend '='?
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(133,23): warning C4553: '==': result of expression not used; did you intend '='?
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(138,23): warning C4553: '==': result of expression not used; did you intend '='?
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(143,29): warning C4553: '==': result of expression not used; did you intend '='?
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(144,30): warning C4553: '==': result of expression not used; did you intend '='?
   zombos.vcxproj -> H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\Debug\zombos.exe

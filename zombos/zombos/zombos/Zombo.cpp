@@ -4,11 +4,17 @@
 #include <iostream>
 #include <sstream>
 #include <SFML/Graphics.hpp>
-#include "Player.h">
+#include "Player.h"
+#include "ZombieArena.h"
+
 using namespace sf;
 
 int main()
 {
+
+
+    //every 4 vertices is a quad?
+
    //game states
     enum class State { PAUSED, LEVELING_UP, GAME_OVER, PLAYING };
     
@@ -22,7 +28,7 @@ int main()
     //get y resolution
     resolution.y = VideoMode::getDesktopMode().height;
 
-    RenderWindow window(VideoMode(resolution.x, resolution.y), "Zombos", Style::Fullscreen);
+    RenderWindow window(VideoMode(resolution.x, resolution.y), "Zombos", Style::Resize);
 
     View mainView(sf::FloatRect(0, 0, resolution.x, resolution.y));
 
@@ -41,12 +47,24 @@ int main()
     //Arena Boundaries
     IntRect arena;
 
-    //main loop
+
+    //create background
+    VertexArray background;
+    
+    Texture TextureBackground;
+
+    TextureBackground.loadFromFile("graphics/background_sheet.png");
+
+
+    //main loops
     while (window.isOpen()) {
     
         //Handle input
         Event event;
+
         while (window.pollEvent(event)) {
+
+
             if (event.type == Event::KeyPressed) {
                 if (event.key.code == Keyboard::Return && state == State::PLAYING) {
                     state = State::PAUSED;
@@ -110,41 +128,44 @@ int main()
 
         //leveling up code
         if (state == State::LEVELING_UP) {
+
+
+
             if (event.key.code == Keyboard::Num1)
             {
-                state == State::PLAYING;
+                state = State::PLAYING;
             }
             if (event.key.code == Keyboard::Num2)
             {
-                state == State::PLAYING;
+                state = State::PLAYING;
             }
             if (event.key.code == Keyboard::Num3)
             {
-                state == State::PLAYING;
+                state = State::PLAYING;
             }
 
             if (event.key.code == Keyboard::Num4)
             {
-                state == State::PLAYING;
+                state = State::PLAYING;
             }
 
             if (event.key.code == Keyboard::Num5)
             {
-                state == State::PLAYING;
+                state = State::PLAYING;
             }
 
             if (event.key.code == Keyboard::Num6)
             {
-                state == State::PLAYING;
+                state = State::PLAYING;
             }
 
             if (state == State::PLAYING) {
                 //prepare the level
-                arena.width == 500;
-                arena.height == 500;
+                arena.width = 500;
+                arena.height = 500;
                 arena.left = 0;
                 arena.top = 0;
-                int tileSize = 50;
+                int tileSize = createBackground(background, arena);
                 player.spawn(arena, resolution, tileSize);
 
                 clock.restart();
@@ -189,7 +210,7 @@ int main()
             //draw everything
 
             window.setView(mainView);
-
+            window.draw(background, &TextureBackground);
             window.draw(player.getSprite());
         }
 
@@ -201,7 +222,7 @@ int main()
 
         window.display();
 
-    
+        
     }
 
 
