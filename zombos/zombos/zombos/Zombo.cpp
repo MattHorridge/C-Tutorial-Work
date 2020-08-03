@@ -6,11 +6,16 @@
 #include <SFML/Graphics.hpp>
 #include "Player.h"
 #include "ZombieArena.h"
-
+#include "TextureHolder.h"
+#include "Bullet.h"
 using namespace sf;
 
 int main()
 {
+
+
+    //Textureholder class
+    TextureHolder holder;
 
 
     //every 4 vertices is a quad?
@@ -53,10 +58,29 @@ int main()
     
     Texture TextureBackground;
 
-    TextureBackground.loadFromFile("graphics/background_sheet.png");
+    
+
+    TextureBackground = TextureHolder::GetTexture("graphics/background_sheet.png");
 
 
-    //main loops
+
+    //prepare horde of zombies
+    int numZOmbies;
+    int numZombiesAlive;
+    Zombie* zombies = nullptr;
+
+    //bullets
+    Bullet bullets[100];
+    int currentBullet = 0;
+    int bulletsSpare = 24;
+    int bulletsInClip = 6;
+    int clipSize = 6;
+    float fireRate = 1;
+
+    Time lastPressed;
+
+
+    //main loop
     while (window.isOpen()) {
     
         //Handle input
@@ -78,8 +102,23 @@ int main()
                     state = State::LEVELING_UP;
                     //state = State::PLAYING;
                 }
-                if (state == State::PLAYING) {
-                
+                if (state == State::PLAYING) 
+                {
+                    //reloading
+                    if (event.key.code == Keyboard::R) {
+                        if (bulletsSpare >= clipSize) {
+                            bulletsInClip = clipSize;
+                            bulletsSpare -= clipSize;
+                        }
+                        else if (bulletsSpare > 0) {
+                            bulletsInClip = bulletsSpare;
+                            bulletsSpare = 0;
+                        }
+                        else {
+                            //todo
+                        }
+                    }
+
                 }
                 
             }
@@ -120,6 +159,12 @@ int main()
             }
             else {
                 player.stopRight();
+            }
+
+            //fire gun
+            if (Mouse::isButtonPressed(sf::Mouse::Left)) {
+
+                
             }
 
 
@@ -168,6 +213,14 @@ int main()
                 int tileSize = createBackground(background, arena);
                 player.spawn(arena, resolution, tileSize);
 
+
+                //create zombie horde
+                numZOmbies = 10;
+                delete[] zombies;
+                zombies = createHorde(numZOmbies, arena);
+                numZombiesAlive = numZOmbies;
+
+
                 clock.restart();
 
             }
@@ -197,6 +250,12 @@ int main()
             //make view centre around the player
             mainView.setCenter(player.getCenter());
 
+            //loop through each Zombie and update;
+            for (int i = 0; i < numZOmbies; i++) {
+                if (zombies[i].isAlive()) {
+                    zombies[i].update(dt.asSeconds(), playerPosition);
+                }
+            }
         }
 
 
@@ -211,6 +270,12 @@ int main()
 
             window.setView(mainView);
             window.draw(background, &TextureBackground);
+
+            //draw the zombies;
+            for (int i = 0; i < numZOmbies; i++) {
+                window.draw(zombies[i].getSprite());
+            }
+
             window.draw(player.getSprite());
         }
 
@@ -225,6 +290,7 @@ int main()
         
     }
 
+    delete[] zombies;
 
     return 0;
 
