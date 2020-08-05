@@ -12,9 +12,9 @@ private:
 	const float CRAWLER_SPEED = 20;
 
 	//health
-	const float BLOATER_HEALTH = 5;
+	const float BLOATER_HEALTH = 2;
 	const float CHASER_HEATLH = 1;
-	const float CRAWLER_HEALTH = 3;
+	const float CRAWLER_HEALTH = 1;
 
 	const int MAX_VARIANCE = 30;
 	const int OFFSET = 101 - MAX_VARIANCE;

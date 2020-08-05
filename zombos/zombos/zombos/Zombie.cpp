@@ -48,7 +48,7 @@ void Zombie::spawn(float startX, float startY, int type, int seed) {
 
 bool Zombie::hit() {
 	m_Health--;
-	if (m_Health < 0) {
+	if (m_Health <= 0) {
 		//dead
 		m_Alive = false;
 		m_Sprite.setTexture(TextureHolder::GetTexture("graphics/blood.png"));
@@ -107,7 +107,9 @@ void Zombie::update(float elapsedTime, Vector2f playerLocation) {
 	//float angle2 = atanresult * 180 / 3.141;
 
 
-	float angle = (atan2(playerY - m_Position.y, playerX - m_Position.x) * 180)/ 3.141;
+	float angle = (atan2(playerY - m_Position.y,
+		playerX - m_Position.x)
+		* 180) / 3.141;
 
 	m_Sprite.setRotation(angle);
 

@@ -1,5 +1,28 @@
-﻿  Zombie.cpp
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombie.cpp(34,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombie.cpp(107,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombie.cpp(110,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+﻿  Zombo.cpp
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(37,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(39,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(41,59): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(41,45): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(424,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\zombos\Zombo.cpp(550,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   zombos.vcxproj -> H:\Projects\C++\LIL-C++ Games 1\zombos\zombos\Debug\zombos.exe
