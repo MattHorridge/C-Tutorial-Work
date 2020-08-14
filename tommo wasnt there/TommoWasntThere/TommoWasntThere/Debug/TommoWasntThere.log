@@ -1,0 +1,73 @@
+﻿  LevelManager.cpp
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(78,21): warning C4018: '<': signed/unsigned mismatch
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(94,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(94,16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(97,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(97,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(100,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(100,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(103,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(103,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(109,19): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(112,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(112,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(115,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(115,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(118,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  TommoWasntThere.vcxproj -> H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\Debug\TommoWasntThere.exe
