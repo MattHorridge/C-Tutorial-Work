@@ -1,73 +1,63 @@
-﻿  LevelManager.cpp
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(78,21): warning C4018: '<': signed/unsigned mismatch
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(94,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+﻿  DetectCollisions.cpp
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(9,16): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(94,16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(11,17): warning C4244: '=': conversion from 'const int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(97,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(34,25): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(97,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(33,25): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(100,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(37,44): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(43,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(100,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(44,18): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(103,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\DetectCollisions.cpp(49,47): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Draw.cpp
+  Engine.cpp
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\Engine.cpp(5,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(103,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\Engine.cpp(6,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(109,19): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\Engine.cpp(8,52): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(112,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\Engine.cpp(8,38): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(112,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(115,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(115,14): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LevelManager.cpp(118,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
+  Input.cpp
+  LoadLevel.cpp
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LoadLevel.cpp(15,41): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\TommoWasntThere\LoadLevel.cpp(16,39): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  TommoWasntThere.cpp
+  Update.cpp
+  Generating Code...
   TommoWasntThere.vcxproj -> H:\Projects\C++\LIL-C++ Games 1\tommo wasnt there\TommoWasntThere\Debug\TommoWasntThere.exe
